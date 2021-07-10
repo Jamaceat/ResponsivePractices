@@ -1,0 +1,35 @@
+*{box-sizing:border-box ;
+margin: 0;
+padding: 0;
+}
+
+html{
+font-size: 62.5%;
+}
+/* Cabecera */
+
+.cabecera-list{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    font-size: 5rem;
+    box-shadow: 1px -1px 3px black;
+}
+
+.cabecera-image{
+grid-row: 1;
+grid-column: 1;
+margin: 0 1rem;
+width: 6rem;
+filter: drop-shadow(2px 2px 0 gray);
+}
+
+.cabecera-paragraph{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3.3rem;
+    margin: 0 1rem;
+}
+
+
+/*  */
