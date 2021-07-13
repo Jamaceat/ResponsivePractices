@@ -12,7 +12,7 @@ font-size: 62.5%;
     display: grid;
     grid-template-columns: 0fr 1fr;
     font-size: 5rem;
-    box-shadow: 1px -1px 3px black;
+    box-shadow: -10px -1px 3px black;
 }
 
 .cabecera-image{
@@ -33,3 +33,70 @@ filter: drop-shadow(2px 2px 0 gray);
 
 
 /*  */
+/* Main  */
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Didact Gothic';
+    font-size: 2rem;
+    margin: 1rem 2rem ;
+
+}
+
+.noticias{
+    /* margin: 1rem 2rem; */
+    background-color: rgb(241, 160, 8);
+    width:100%;
+    min-height: 3rem;
+    border-radius: 1rem;
+    box-shadow:0px 1px 4px black inset;
+
+}
+
+.noticias p{
+box-shadow: none;
+margin: 1rem 2rem ;
+
+}
+/* Contenido principal */
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.maincontainer section{
+    margin: 1rem 0;
+    border-radius: 1rem;
+    box-shadow:0px 1px 4px black inset;
+
+
+}
+/*  */
+/* Secciones dentro del contenedor principal */
+
+.secuno{
+    background-color:aqua ;
+
+}
+
+.secuno p, .sectres p, .secdos p,.seccuatro p{
+    margin: 2rem 1rem;
+}
+
+.secdos{
+    background-color: blueviolet;
+}
+
+.sectres{
+    background-color: brown;
+}
+
+.seccuatro{background-color: yellow;}
+
+
+/*  */
+
+
+
+
