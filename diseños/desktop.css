@@ -7,3 +7,81 @@
     font-size: 62.5%;
     }
 
+    .cabecera-list{
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        font-size: 5rem;
+        box-shadow: -10px -1px 3px black;
+       
+    }
+        
+    .cabecera-image{
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0 1rem;
+    width: 6rem;
+    filter: drop-shadow(2px 2px 0 gray);
+    }
+        
+    .cabecera-paragraph{
+        grid-row: 1;
+        grid-column: 2;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 3.3rem;
+        margin: 0 1rem;
+    }
+        
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Didact Gothic';
+        font-size: 2rem;
+        margin: 1rem 2rem ;
+    
+    }   
+    
+    
+    .noticias{
+        /* margin: 1rem 2rem; */
+        background-color: rgb(241, 160, 8);
+        width:100%;
+        min-height: 3rem;
+        border-radius: 1rem;
+        box-shadow:0px 1px 4px black inset;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    
+    .maincontainer{
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    
+    .secuno{
+        background-color:aqua ;
+        width: 25%;
+        min-height: 1rem;
+    }
+    
+    .secdos{
+        background-color: blueviolet;
+        width: 70%;
+    }
+    
+    .sectres{
+        background-color: brown;
+        width: 25%;
+    }
+    
+    .seccuatro{
+        background-color: yellow;
+        width: 70%;
+    }
+    
+    
